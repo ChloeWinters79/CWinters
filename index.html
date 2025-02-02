@@ -1,0 +1,280 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chloé Winters - CV</title>
+    <style>
+        /* Global Styles */
+        body {
+            font-family: Calibri, sans-serif;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            background-color: #f4f4f4;
+        }
+
+        /* Container to hold both panels */
+        .container {
+            display: flex;
+            width: 100%;
+            height: 100vh;
+        }
+
+        /* Left Navigation Panel */
+        .nav-panel {
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 250px;
+            height: 100%;
+            background-color: #41034F;
+            color: white;
+            padding: 20px;
+            box-sizing: border-box;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            z-index: 10; /* Ensure it stays on top */
+        }
+
+        .nav-panel h2 {
+            color: white;
+            text-align: center;
+            margin-top: 10px;
+        }
+
+        .nav-panel p {
+            color: white;
+            text-align: center;
+            font-size: 14px;
+        }
+
+        .nav-panel a {
+            color: white;
+            text-decoration: none;
+            display: block;
+            margin: 10px 0;
+        }
+
+        .nav-panel a:hover {
+            color: #E688FB;
+        }
+
+        /* Profile Picture Style */
+        .profile-pic img {
+            width: 80px;
+            height: 100px;
+            border-radius: 10%;
+            border: 2px solid white;
+            margin-bottom: 15px;
+        }
+
+        /* Content Panel */
+        .content-panel {
+            margin-left: 270px; /* Add margin to ensure space between content and nav */
+            padding: 20px;
+            width: calc(100% - 270px);
+            overflow-y: auto;
+            background-color: white;
+            box-sizing: border-box;
+        }
+
+        /* Section Header Styles */
+        h3 {
+            color: #82069D;
+            font-size: 24px;
+            margin-top: 30px;
+            border-bottom: 2px solid #E688FB;
+            padding-bottom: 5px;
+        }
+
+        /* Section Padding and Margin */
+        section {
+            margin-bottom: 30px;
+        }
+
+        /* Section Separators (Purple color) */
+        section h3 {
+            padding-bottom: 5px;
+            border-bottom: 2px solid #E688FB;
+        }
+
+        /* Make sure to leave enough margin between navigation and content */
+        .content-panel {
+            margin-left: 270px;
+        }
+
+        /* Content Panel Text Color (Dark) */
+        .content-panel p {
+            color: #100114; /* Dark text for readability */
+        }
+
+        /* Font Family for Content Panel */
+        .content-panel {
+            font-family: Calibri, sans-serif;
+        }
+
+        /* Ensure the left panel always stays visible */
+        .nav-panel {
+            position: fixed;
+            top: 0;
+            left: 0;
+            height: 100%;
+            z-index: 10;
+        }
+
+        /* Responsive Design for Smaller Screens */
+        @media (max-width: 768px) {
+            .container {
+                flex-direction: column;
+            }
+            
+            .nav-panel {
+                width: 100%;
+                position: relative;
+                height: auto;
+            }
+            
+            .content-panel {
+                margin-left: 0;
+                width: 100%;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <!-- Left Navigation Panel -->
+        <div class="nav-panel">
+            <div class="profile-pic">
+                <img src="https://chloewinters79.github.io/CWinters/Image/ChloeWinters.jpg" alt="Chloe Winters">
+            </div>
+            <h2>Chloé Winters</h2>
+            <p>Email: winters.chloearden@gmail.com</p>
+            <p>LinkedIn: <a href="https://www.linkedin.com/in/chloe-winters-3282a9224/">Chloé Winters</a></p>
+            <p>GitHub: <a href="https://github.com/ChloeWinters79">ChloeWinters79</a></p>
+
+            <ul style="list-style: none; padding: 0; margin: 0; text-align: left; width: 100%;">
+                <li><a href="#summary">Professional Summary</a></li>
+                <li><a href="#experience">Work Experience</a></li>
+                <li><a href="#education">Education</a></li>
+                <li><a href="#skills">Skills & Expertise</a></li>
+                <li><a href="#publications">Publications</a></li>
+                <li><a href="#projects">Projects</a></li>
+                 <li><a href="#courses">Course Work</a></li>
+            </ul>
+        </div>
+
+        <!-- Content Panel -->
+        <div class="content-panel">
+            <section id="summary">
+                <h3>Professional Summary</h3>
+                <p>A skilled presented, with 3 years of experience presenting and creating educational presentations. A very organized and diligent worker, with experience in working on research projects for a nonprofit organization.</p>
+            </section>
+
+            <section id="experience">
+                <h3>Work Experience</h3>
+             <b> Peer Educator - Quantitative Research and Community Engagement Lead </b>
+                    <p> August 2022 - Present</p>
+                     <p> West Chester University | West Chester, PA </p>
+                     <p>In charge of creating events for the WCU student body to help students meet and engage with other students. Created events from start to finish, including planning guides, room reservations, and creating social media content to promote the events. Addtionally, created and presented educational presentations for WCU student, staff, and faculty. </p>
+                   <br>
+                   <b> Sales Intern </b>
+                    <p> May 2024 - Present</p>
+                     <p> CYTO|PHL | Philadelphia, PA </p>
+                     <p>Tasked with creating event contracts to send to clients. Created several forms of marketing materials for newsletters, Instagram, and for in office use. Ran and analyzed sales reports for the company.</p>
+            </section>
+
+            <section id="education">
+                <h3>Education</h3>
+                    <b> West Chester University, August 2024 - May 2026</b>
+                    <p> Masters of Science in Applied Statistics </p>
+                    <b> West Chester University, August 2021 - May 2025</b>
+                    <p> Bachelors of Science in Mathematics (Accelerated) - Statistics Concentraion</p>
+                    <p> Minor in Digital Marketing </p>
+            </section>
+
+            <section id="skills">
+                <h3>Skills & Expertise</h3>
+                 <li> SPSS </li>
+                   <li>R Studio </li>
+                   <li> SAS </li>
+                   <li>CITI Certified - Social and Behaviroal Research </li>
+                <li>Canva </li>
+                    <li>Adobe Spark</li>
+            </section>
+
+            <section id="publications">
+                <h3>Publications & Research</h3>
+                <p>Partook in an independent study in the Spring 2024 semester with the Jewish Relief Agencey, a nonprofit organization based in Philadelphia. The independent study concluded with a poster submission to the College of Science and Mathematics Poster Day, the poster was approved by the advisor of the independent study, Professor Pyott </p>
+                <p><a href="https://chloewinters79.github.io/CWinters/Image/MAT499Poster.jpg">Chloé Winters Poster Submission</a></p>
+            </section>
+
+            <section id="projects">
+                <h3>Projects & Portfolio</h3>
+  <p><font color = "black">
+                        
+                    &nbsp;&nbsp;  1. A Project on Bootstrapping and Multiple Linear Regression on Body Mass Index in Diabetic and Non Diabetic Patients. 
+                     <a href="https://chloewinters79.github.io/STA321/Assignments/STA-321-Project1.html"  target="_blank"  
+                     onclick="window.open('https://chloewinters79.github.io/STA321/Assignments/STA-321-Project1.html','name','width=700, height=500')">
+                     <link-btn> WEB LINK</link-btn></a> <br>
+                    
+                        
+                    &nbsp;&nbsp;  2. A Project on Logistic Regression In Stroke and Non Stroke Patients. 
+                     <a href="https://chloewinters79.github.io/STA321/Assignments/STA-321---Project-2.html"  target="_blank"  
+                     onclick="window.open('https://chloewinters79.github.io/STA321/Assignments/STA-321---Project-2.html','name','width=700, height=500')">
+                     <link-btn> WEB LINK</link-btn></a> <br>
+                         
+                    &nbsp;&nbsp;  3. A Project on Dispersed Poisson Regression for Cyclist Count.  
+                     <a href="https://chloewinters79.github.io/STA321/Assignments/STA-321---Project-3---Chloe%CC%81-Winters.html"  target="_blank"  
+                     onclick="window.open('https://chloewinters79.github.io/STA321/Assignments/STA-321---Project-3---Chloe%CC%81-Winters.html','name','width=700, height=500')">
+                     <link-btn> WEB LINK</link-btn></a> <br>
+      
+                    &nbsp;&nbsp;  4. A Project on Exponential Smoothing of a Time Series with Trend and Seasonality for New Home Sales.  
+                     <a href="https://chloewinters79.github.io/STA321/Assignments/STA-321---Project-4---Chloe%CC%81-Winters.html"  target="_blank"  
+                     onclick="window.open('https://chloewinters79.github.io/STA321/Assignments/STA-321---Project-4---Chloe%CC%81-Winters.html','name','width=700, height=500')">
+                     <link-btn> WEB LINK</link-btn></a> <br>
+      </section>
+      
+     <section id="courses">
+                <h3>Course Work</h3>
+                    <b> STA 512- Principles of Experimental Analysis</b>
+                   <p>This course provides technology-driven introduction to regression and other common statistical multivariable modeling techniques. Emphasis on interdisciplinary actions.</p> 
+                  <br>
+                    <b> STA 511- Intro Stat Computing and Data Management</b>
+                   <p>This course teaches the ability to effectively manage and manipulate data, conduct statistical analysis and generate reports and graphics, primarily using the SAS Statistical Software package.</p> 
+                  <br>
+                     <b> STA 506- Mathematical Statistics II</b>
+                   <p>Continuation of STA 505. Correlation, sampling, tests of significance, analysis of variance, and other topics.</p> 
+                  <br>
+                   <b> STA 505 - Mathematical Statics </b>
+                   <p> A rigorous treatment of probability spaces and an introduction to the estimation of parameters. </p>
+                  <br>
+                 <b> STA 503 - Introduction to R </b>
+                   <p> This is an introductory course in R programming. The major topics include setting up Rstudio, R data objects, data input/output, built-in and user-defined R functions, control statement and looping, basic R plot functions, commonly used R libraries, and R markdown. </p>
+                  <br>
+                    <b> STA 502 - Introduction to Python for Statistics and Data Science </b>
+                   <p> In this course, students will learn to install Python and Jupyter Notebook, basic syntax, data input/output, control flows, data visualization and manipulation, along with basic descriptive statistics and statistical tests. They will also learn how to use some common libraries such as NumPy, Pandas and Maplotlib. This course will focus more on using Python as a tool for Statistics and Data Science rather than the intricacies of using an object-oriented programming language. </p>
+                  <br>
+                    <b> STA 490 - Capstone Course in Statistics </b>
+                   <p> Course will synthesize lessons learned throughout the students career with the goal of preparing students for work as professional statisticians. Topics will include report writing, presentations, statistical consulting, sampling design, and resume writing. </p>
+                  <br>
+                     <b> STA 419 - Basics of Statistical Learning </b>
+                   <p> This course will provide an introduction to statistical learning and predictive modeling. Tools will be developed for visualizing and understanding complex data sets. All data analysis will be done using the statistical programming language R. </p>
+                  <br>
+                     <b> STA 321 - Topics in Advanced Statistics </b>
+                   <p> Course will cover select topics in categorical analysis, nonparametrics and time series analysis. Emphasis will be placed on statistical programming, particularly simulations. </p>
+                  <br>
+                     <b> STA 320 - Experimental Design </b>
+                   <p> The purpose of this course is to guide students in learning how to design, conduct and analyze the results of scientific studies so that valid and objective inferences about the population are obtained. It will cover ANOVAs, block, factorial, and split plot designs, as well as response surface analysis. </p>
+                   <br>
+                    <b> STA 311 - Intro Statistical Computing and Data Management </b>
+                   <p> Course will give students the ability to manage and manipulate data effectively, conduct basic statistical analysis, and generate reports and graphics primarily using the SAS Statistical Software Program. </p>
+                  <br>
+              </section>
+         
+        </div>
+    </div>
+</body>
+</html>
